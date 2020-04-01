@@ -1,0 +1,105 @@
+html {
+   font-size: 10px;
+   background-image: url(../images/teo-duldulao-4op9_2Bt2Eg-unsplash.jpg);
+   background-size: cover;
+   background-repeat: no-repeat;
+   height: 100%;
+}
+
+h1 {
+   font-family: 'Pridi', serif;
+   font-size: 5rem;
+}
+
+
+h2, h3, p, a {
+   font-family: 'Tomorrow', sans-serif;
+}
+
+h2 {
+   font-size: 3rem;
+}
+
+h3 {
+   font-size: 2rem;
+}
+
+p, a {
+   font-size: 1.25rem;
+}
+
+/* NAVIGATION */
+.navbar {
+   background-color: #3C402F !important;
+}
+
+.navbar-brand h1 {
+   font-size: 3rem;
+   color: #D9B68B;
+   padding: 1rem;
+}
+
+#navbarNav {
+   /* width: 100%; */
+   margin: 0 auto;
+   justify-self: flex-end;
+   border: yellow solid 2px;
+}
+
+.navbar-nav {
+   border: red solid 2px;
+}
+
+.navbar-nav .nav-item {
+   padding: 0 3rem;
+}
+
+.nav-link {
+   color: #D9B68B !important;
+}
+
+
+/* MAIN */
+.jumbotron {
+   background-image: url(../images/teo-duldulao-4op9_2Bt2Eg-unsplash.jpg);
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: top left;
+}
+
+.about-box {
+   background-color: #D9B68B;
+   padding: 3rem;
+}
+
+.about-box img {
+   width: 100%;
+   height: auto;
+
+}
+
+/* FONTS */
+font-family: 'Pridi', serif;
+font-family: 'Tomorrow', sans-serif;
+
+/* COLORS */
+/* Color Theme Swatches in Hex */
+.Sarah-Reid-&-Others-1-hex { color: #3C402F; }
+.Sarah-Reid-&-Others-2-hex { color: #555946; }
+.Sarah-Reid-&-Others-3-hex { color: #8C7E64; }
+.Sarah-Reid-&-Others-4-hex { color: #D9B68B; }
+.Sarah-Reid-&-Others-5-hex { color: #0D0D0D; }
+
+/* Color Theme Swatches in RGBA */
+.Sarah-Reid-&-Others-1-rgba { color: rgba(60, 63, 47, 1); }
+.Sarah-Reid-&-Others-2-rgba { color: rgba(84, 89, 69, 1); }
+.Sarah-Reid-&-Others-3-rgba { color: rgba(140, 126, 99, 1); }
+.Sarah-Reid-&-Others-4-rgba { color: rgba(216, 181, 138, 1); }
+.Sarah-Reid-&-Others-5-rgba { color: rgba(12, 12, 12, 1); }
+
+/* Color Theme Swatches in HSLA */
+.Sarah-Reid-&-Others-1-hsla { color: hsla(73, 14, 21, 1); }
+.Sarah-Reid-&-Others-2-hsla { color: hsla(73, 12, 31, 1); }
+.Sarah-Reid-&-Others-3-hsla { color: hsla(39, 16, 47, 1); }
+.Sarah-Reid-&-Others-4-hsla { color: hsla(33, 50, 69, 1); }
+.Sarah-Reid-&-Others-5-hsla { color: hsla(0, 0, 5, 1); }
