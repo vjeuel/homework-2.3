@@ -74,6 +74,7 @@ p, a {
    background-repeat: no-repeat;
    margin-bottom: 5rem;
    padding-bottom: 5rem;
+   min-height: 100vh;
 }
 
 .about-box {
@@ -208,8 +209,25 @@ footer p {
                inset 0 0 20px #738CBF;
 }
 
+form {
+   margin-top: 3rem;
+}
+
 .form-group {
-   border: red solid 2px;
+   margin-bottom: 3rem;
+}
+
+.form-group p {
+   text-align: left;
+}
+
+button {
+   background-color: #A3BAD9 !important;
+   color: #495073 !important;
+   font-size: 1.25rem !important;
+   
+   padding: 1rem 2rem !important;
+   
 }
 
 /* MEDIA QUERY */
