@@ -8,64 +8,52 @@
       <!-- Bootstrap CSS -->
       <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
       <link href="https://fonts.googleapis.com/css2?family=Pridi:wght@500&family=Tomorrow&display=swap" rel="stylesheet">
+      <script src="https://kit.fontawesome.com/db9f7000a0.js" crossorigin="anonymous"></script>
       <link rel="stylesheet" href="./assets/css/style.css">
 
       <title>Jeuel's Portfolio</title>
    </head>
    <body>
       <nav class="navbar navbar-expand-sm">
-         <a class="navbar-brand" href="#"><h1>Jeuel</h1></a>
+         <a class="navbar-brand col-xs-12 col-sm-4 col-lg-3 text-center" href="./index.html">
+            <h1>Jeuel</h1>
+         </a>
          <!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
          </button> -->
-         <div id="navbarNav">
-            <ul class="navbar-nav ">
-               <li class="nav-item active">
-                  <a class="nav-link" href="./index.html">about<span class="sr-only">(current)</span></a>
+         <div id="navbarNav" class="col-xs-12 col-sm-8 col-lg-9">
+            <ul class="navbar-nav text-uppercase justify-content-end">
+               <li class="nav-item col-xs-4">
+                  <a class="nav-link text-center active" href="./index.html">about<span class="sr-only">(current)</span></a>
                </li>
-               <li class="nav-item">
-                  <a class="nav-link" href="./portfolio.html">portfolio</a>
+               <li class="nav-item col-xs-4">
+                  <a class="nav-link text-center" href="./portfolio.html">portfolio</a>
                </li>
-               <li class="nav-item">
-                  <a class="nav-link" href="./contact.html">contact</a>
+               <li class="nav-item col-xs-4">
+                  <a class="nav-link text-center" href="./contact.html">contact</a>
                </li>
             </ul>
          </div>
       </nav>
 
-	   <!-- <nav>
-         <section class="container container-name">
-            <div class="col-sm-4 text-center">
-               <h1>Jeuel</h1>
-            </div>
-         </section>
-         <section class="container container-menu">
-            <div class="col-sm-8 text-center text-uppercase">
-               <a href="./index.html">about</a>
-               <a href="./portfolio.html">portfolio</a>
-               <a href="./contact.html">contact</a>
-            </div>
-         </section>
-
-      </nav> -->
-
       <main class="jumbotron">
-         <section class="container about-box">
-            <h1 class="text-center">Hi! I'm Jeuel</h1>
-            <figure>
-               <img src="./assets/images/IMG_20160305_011533.jpg" alt="">
-            </figure>
-            <h2>Digital designer,<br> Future Front-end & Back-end developer<br> in Dallas,TX</h2>
-            <h3>Avid learner, Yoga enthusiast, Seasonal cyclist, Trilingual, Freelancer and READY to be hired by your company.</h3>
-            <div class="col">
-
+         <section class="row ">
+            <div class="col-md-2 phantom"></div>
+            <div class="col-md-8 about-box text-center">
+               <h1>Hi! I'm Jeuel</h1>
+               <figure class="">
+                  <img src="" alt="">
+               </figure>
+               <h2 class="text-left">Digital designer,<br> Future Front-end & Back-end developer<br> in Dallas,TX</h2>
+               <h3 class="text-left">Avid learner, Yoga enthusiast, Seasonal cyclist, Trilingual, Freelancer and READY to be hired by your company.</h3>
             </div>
-
+            
          </section>
       </main>
 
-      <footer>
-         
+      <footer class="fixed-bottom">
+         <div class="col-12"></div>
+         <p><i class="far fa-copyright"></i>copyright - 2020</p>
       </footer>
 
       <!-- Optional JavaScript -->

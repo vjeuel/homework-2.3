@@ -1,27 +1,30 @@
 html {
    font-size: 10px;
-   background-image: url(../images/teo-duldulao-4op9_2Bt2Eg-unsplash.jpg);
-   background-size: cover;
-   background-repeat: no-repeat;
-   height: 100%;
 }
 
 h1 {
    font-family: 'Pridi', serif;
    font-size: 5rem;
+   color: #A3BAD9;
 }
 
 
 h2, h3, p, a {
    font-family: 'Tomorrow', sans-serif;
+   color: #f2f2f2;
+   letter-spacing: 1px;
+   word-spacing: 3px;
+   line-height: 1.5;
 }
 
 h2 {
    font-size: 3rem;
+   margin-top: 3rem;
 }
 
 h3 {
    font-size: 2rem;
+   margin-top: 3rem;
 }
 
 p, a {
@@ -30,24 +33,23 @@ p, a {
 
 /* NAVIGATION */
 .navbar {
-   background-color: #3C402F !important;
+   background-color: #495073 !important;
+   box-shadow: 0 0 5px 3px black, 
+               0 0 20px 10px #f2f2f2, 
+               inset 0 0 3px #f2f2f2, 
+               inset 0 0 10px #738CBF, 
+               inset 0 0 20px #738CBF;
 }
 
 .navbar-brand h1 {
+   background-color: #f2f2f2;
    font-size: 3rem;
-   color: #D9B68B;
-   padding: 1rem;
-}
-
-#navbarNav {
-   /* width: 100%; */
-   margin: 0 auto;
-   justify-self: flex-end;
-   border: yellow solid 2px;
-}
-
-.navbar-nav {
-   border: red solid 2px;
+   color: #495073;
+   width: 100%;
+   padding-top: 1rem;
+   padding-bottom: 1rem;
+   border-radius: 1rem;
+   margin-right: 0;
 }
 
 .navbar-nav .nav-item {
@@ -55,28 +57,80 @@ p, a {
 }
 
 .nav-link {
-   color: #D9B68B !important;
+   color: #f2f2f2 !important;
+}
+
+.active {
+   color: #A3BAD9 !important;
 }
 
 
 /* MAIN */
 .jumbotron {
-   background-image: url(../images/teo-duldulao-4op9_2Bt2Eg-unsplash.jpg);
+   background-image: url(../images/ashkan-forouzani-cyp7GkqF6b8-unsplash.jpg);
    background-size: cover;
    background-repeat: no-repeat;
-   background-position: top left;
+   margin-bottom: 5rem;
+   padding-bottom: 5rem;
+   padding-top: 5rem;
 }
 
 .about-box {
-   background-color: #D9B68B;
-   padding: 3rem;
-}
-
+   background-color: #495073;
+   padding: 5rem 3%;
+   margin: 2rem;
+   box-shadow: 0 0 5px 3px black, 
+               0 0 20px 10px #f2f2f2, 
+               inset 0 0 3px #f2f2f2, 
+               inset 0 0 10px #738CBF, 
+               inset 0 0 20px #738CBF;
+            }
+            
 .about-box img {
+   background-image: url(../images/IMG_20180205_210241.jpg);
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center center;
    width: 100%;
-   height: auto;
-
+   height: 60rem;
+   max-width: 54.7rem;
+   margin-top: 3rem;
+   box-shadow: 0 0 5px 3px black, 
+               inset 0 0 10px #f2f2f2;
 }
+
+/* FOOTER */
+footer {
+   background-color: #738CBF;
+   padding: 1rem;
+   box-shadow: 0 0 5px 3px black, 
+            0 0 18px #f2f2f2, 
+            inset 0 0 3px #f2f2f2, 
+            inset 0 0 10px #738CBF, 
+            inset 0 0 20px #738CBF;
+   border-top: #f2f2f2 0.75rem solid;
+}
+
+footer p {
+   text-align: center;
+   color: #f2f2f2;
+}
+
+
+/* MEDIA QUERY */
+@media (max-width: 576px) {
+
+   .about-box {
+      margin: 0;
+   }
+}
+
+@media (min-width: 1200px) {
+   h2, h3 {
+      padding: 0 3%;
+   }
+}
+
 
 /* FONTS */
 font-family: 'Pridi', serif;
@@ -84,22 +138,22 @@ font-family: 'Tomorrow', sans-serif;
 
 /* COLORS */
 /* Color Theme Swatches in Hex */
-.Sarah-Reid-&-Others-1-hex { color: #3C402F; }
-.Sarah-Reid-&-Others-2-hex { color: #555946; }
-.Sarah-Reid-&-Others-3-hex { color: #8C7E64; }
-.Sarah-Reid-&-Others-4-hex { color: #D9B68B; }
-.Sarah-Reid-&-Others-5-hex { color: #0D0D0D; }
+.Arts-&-Culture-Center-1-hex { color: #495073; }
+.Arts-&-Culture-Center-2-hex { color: #738CBF; }
+.Arts-&-Culture-Center-3-hex { color: #A3BAD9; }
+.Arts-&-Culture-Center-4-hex { color: #D9B282; }
+.Arts-&-Culture-Center-5-hex { color: #D95032; }
 
 /* Color Theme Swatches in RGBA */
-.Sarah-Reid-&-Others-1-rgba { color: rgba(60, 63, 47, 1); }
-.Sarah-Reid-&-Others-2-rgba { color: rgba(84, 89, 69, 1); }
-.Sarah-Reid-&-Others-3-rgba { color: rgba(140, 126, 99, 1); }
-.Sarah-Reid-&-Others-4-rgba { color: rgba(216, 181, 138, 1); }
-.Sarah-Reid-&-Others-5-rgba { color: rgba(12, 12, 12, 1); }
+.Arts-&-Culture-Center-1-rgba { color: rgba(73, 79, 114, 1); }
+.Arts-&-Culture-Center-2-rgba { color: rgba(114, 140, 191, 1); }
+.Arts-&-Culture-Center-3-rgba { color: rgba(162, 186, 216, 1); }
+.Arts-&-Culture-Center-4-rgba { color: rgba(216, 177, 130, 1); }
+.Arts-&-Culture-Center-5-rgba { color: rgba(216, 80, 49, 1); }
 
 /* Color Theme Swatches in HSLA */
-.Sarah-Reid-&-Others-1-hsla { color: hsla(73, 14, 21, 1); }
-.Sarah-Reid-&-Others-2-hsla { color: hsla(73, 12, 31, 1); }
-.Sarah-Reid-&-Others-3-hsla { color: hsla(39, 16, 47, 1); }
-.Sarah-Reid-&-Others-4-hsla { color: hsla(33, 50, 69, 1); }
-.Sarah-Reid-&-Others-5-hsla { color: hsla(0, 0, 5, 1); }
+.Arts-&-Culture-Center-1-hsla { color: hsla(230, 21, 36, 1); }
+.Arts-&-Culture-Center-2-hsla { color: hsla(219, 37, 60, 1); }
+.Arts-&-Culture-Center-3-hsla { color: hsla(213, 41, 74, 1); }
+.Arts-&-Culture-Center-4-hsla { color: hsla(33, 53, 68, 1); }
+.Arts-&-Culture-Center-5-hsla { color: hsla(11, 68, 52, 1); }
