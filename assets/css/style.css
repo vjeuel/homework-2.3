@@ -209,6 +209,13 @@ footer p {
                inset 0 0 20px #738CBF;
 }
 
+.contact-box a {
+   font-size: 2rem;
+   color: #A3BAD9;
+}
+
+
+
 form {
    margin-top: 3rem;
 }
@@ -220,6 +227,8 @@ form {
 .form-group p {
    text-align: left;
 }
+
+
 
 button {
    background-color: #A3BAD9 !important;
