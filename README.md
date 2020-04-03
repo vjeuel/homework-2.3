@@ -1,4 +1,4 @@
-# **Homework-2**
+# **Homework-2.3**
 
 This is my [portfolio website](https://vjeuel.github.io/homework-2.3), which is divided in 3 main pages:
 
