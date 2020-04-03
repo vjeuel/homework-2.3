@@ -102,6 +102,7 @@ p, a {
                inset 0 0 10px #f2f2f2;
 }
 
+
 /* FOOTER */
 footer {
    background-color: #738CBF;
@@ -112,6 +113,7 @@ footer {
             inset 0 0 10px #738CBF, 
             inset 0 0 20px #738CBF;
    border-top: #495073 0.75rem solid;
+   margin-top: -5rem;
 }
 
 footer p {
@@ -144,11 +146,11 @@ footer p {
    margin: 2rem;
    margin-top: 10rem;
    box-shadow: 0 0 5px 3px black, 
-               0 0 20px 10px #f2f2f2, 
+               0 0 20px 20px #f2f2f2, 
                inset 0 0 3px #f2f2f2, 
                inset 0 0 10px #738CBF, 
                inset 0 0 20px #738CBF;
-            }
+}
             
 #job-1, #job-2, #job-3, #job-4, #job-5 {
    background-size: cover;
@@ -160,6 +162,12 @@ footer p {
    margin-top: 3rem;
    box-shadow: 0 0 5px 3px black, 
                inset 0 0 10px #f2f2f2;
+
+   box-shadow: 0 0 5px 3px black, 
+               0 0 5px 5px #f2f2f2, 
+               inset 0 0 3px #f2f2f2, 
+               inset 0 0 5px #738CBF, 
+               inset 0 0 10px #738CBF;
 }
 
 #job-1{
@@ -214,8 +222,6 @@ footer p {
    color: #A3BAD9;
 }
 
-
-
 form {
    margin-top: 3rem;
 }
@@ -228,16 +234,38 @@ form {
    text-align: left;
 }
 
-
+.form-group input, .form-group textarea {
+   box-shadow: 0 0 3px 2px black, 
+               0 0 3px 4px #f2f2f2, 
+               inset 0 0 3px #f2f2f2, 
+               inset 0 0 3px #738CBF, 
+               inset 0 0 5px #738CBF;
+   height: 4rem;
+   padding: 1rem 2rem;
+}
 
 button {
    background-color: #A3BAD9 !important;
    color: #495073 !important;
-   font-size: 1.25rem !important;
-   
+   font-size: 1.5rem !important;
+   font-weight: 600 !important;
+
    padding: 1rem 2rem !important;
+   width: 50%;
+   box-shadow: 0 0 5px 3px black, 
+               0 0 5px 5px #f2f2f2, 
+               inset 0 0 3px #f2f2f2, 
+               inset 0 0 5px #738CBF, 
+               inset 0 0 10px #738CBF;
+   transition: 0.5s !important;
    
 }
+
+button:hover {
+   background-color: #495073 !important;
+   color: #f2f2f2 !important;
+}
+
 
 /* MEDIA QUERY */
 @media (max-width: 576px) {
@@ -252,27 +280,27 @@ button {
 
 
 /* FONTS */
-font-family: 'Pridi', serif;
-font-family: 'Tomorrow', sans-serif;
+/* font-family: 'Pridi', serif;
+font-family: 'Tomorrow', sans-serif; */
 
 /* COLORS */
 /* Color Theme Swatches in Hex */
-.Arts-&-Culture-Center-1-hex { color: #495073; }
+/* .Arts-&-Culture-Center-1-hex { color: #495073; }
 .Arts-&-Culture-Center-2-hex { color: #738CBF; }
 .Arts-&-Culture-Center-3-hex { color: #A3BAD9; }
 .Arts-&-Culture-Center-4-hex { color: #D9B282; }
-.Arts-&-Culture-Center-5-hex { color: #D95032; }
+.Arts-&-Culture-Center-5-hex { color: #D95032; } */
 
 /* Color Theme Swatches in RGBA */
-.Arts-&-Culture-Center-1-rgba { color: rgba(73, 79, 114, 1); }
+/* .Arts-&-Culture-Center-1-rgba { color: rgba(73, 79, 114, 1); }
 .Arts-&-Culture-Center-2-rgba { color: rgba(114, 140, 191, 1); }
 .Arts-&-Culture-Center-3-rgba { color: rgba(162, 186, 216, 1); }
 .Arts-&-Culture-Center-4-rgba { color: rgba(216, 177, 130, 1); }
-.Arts-&-Culture-Center-5-rgba { color: rgba(216, 80, 49, 1); }
+.Arts-&-Culture-Center-5-rgba { color: rgba(216, 80, 49, 1); } */
 
 /* Color Theme Swatches in HSLA */
-.Arts-&-Culture-Center-1-hsla { color: hsla(230, 21, 36, 1); }
+/* .Arts-&-Culture-Center-1-hsla { color: hsla(230, 21, 36, 1); }
 .Arts-&-Culture-Center-2-hsla { color: hsla(219, 37, 60, 1); }
 .Arts-&-Culture-Center-3-hsla { color: hsla(213, 41, 74, 1); }
 .Arts-&-Culture-Center-4-hsla { color: hsla(33, 53, 68, 1); }
-.Arts-&-Culture-Center-5-hsla { color: hsla(11, 68, 52, 1); }
+.Arts-&-Culture-Center-5-hsla { color: hsla(11, 68, 52, 1); } */
